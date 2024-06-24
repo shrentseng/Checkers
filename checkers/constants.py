@@ -1,0 +1,17 @@
+BOARD_WIDTH, BOARD_HEIGHT = 800, 800
+NUM_ROWS, NUM_COLS = 8, 8
+SQUARE_SIZE = BOARD_WIDTH // NUM_COLS
+
+
+# Colors
+WHITE = (255, 255, 255)
+BLACK = (0, 0, 0)
+RED = (255, 0, 0)
+BLUE = (0, 0, 255)
+GREY = (128, 128, 128)
+YELLOW = (255, 255, 0)
+GREEN = (0, 255, 0)
+
+ORI = {RED: -1, BLUE: 1}
+
+DIRS = [(1, 1), (1, -1), (-1, 1), (-1, -1)]
