@@ -1,25 +1,33 @@
-### This is a checker game made with pygame.
+# This is a checker game made with pygame
 
-### Rules are simple
+## How to run the game
+
+1.  `git clone`
+
+2.  `python3 main.py`
+
+**Note:** Press `z` to undo move.
+
+## Rules are simple
 
 ### Objective:
 
-# Capture all of the opponent's pieces or block them so they cannot make a move.
+- Capture all of the opponent's pieces or block them so they cannot make a move.
 
 ### Movement:
 
-# Pieces can only move diagonally on dark square
+- Pieces can only move diagonally on dark square
 
-# Pieces can only move forward. Once they become "King" by the last row of opponent side they can move freely diagonally.
+- Pieces can only move forward. Once they become "King" by the last row of opponent side they can move freely diagonally.
 
 ### Capturing:
 
-# Capture an opponent's piece by jumping over it to an empty square directly beyond it.
+- Capture an opponent's piece by jumping over it to an empty square directly beyond it.
 
-# Multiple captures are allowed in a single turn (multi-jump) if possible
+- Multiple captures are allowed in a single turn (multi-jump) if possible
 
 ### Additional Rules:
 
-# If a player can make a capture, they must do so (forced capture rule).
+- If a player can make a capture, they must do so (forced capture rule). -- WHAT MAKES THIS GAME FUN!!!!
 
-# The game can end in a stalemate if neither player can make a legal move.
+- The game can end in a stalemate if neither player can make a legal move.
