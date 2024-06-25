@@ -1,4 +1,6 @@
-# This is a checker game made with pygame
+# Checkers
+
+This is a checkers game made with pygame
 
 ## Usage
 
