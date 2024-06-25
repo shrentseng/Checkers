@@ -1,6 +1,6 @@
 # This is a checker game made with pygame
 
-## How to run the game
+## Usage
 
 1.  `git clone`
 
@@ -31,3 +31,13 @@
 - If a player can make a capture, they must do so (forced capture rule). -- WHAT MAKES THIS GAME FUN!!!!
 
 - The game can end in a stalemate if neither player can make a legal move.
+
+---
+
+"Start of a game"
+
+![Initial](assets/initial.png)
+
+"A piece with a black dot indicates a King"
+
+![King](assets/king.png)
