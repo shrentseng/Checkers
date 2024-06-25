@@ -43,9 +43,11 @@ class Game:
             self.turn = RED
 
     def update(self, screen):
-        print("updating")
         self.board.draw(screen)
         pygame.display.update()
+
+    def draw_panel(self, screen):
+        self.draw_undo_button(screen)
 
     def undo(self, screen):
         self.selected = None

@@ -71,7 +71,6 @@ class Board:
 
     def select_piece(self, row, col):
         self.selected_square = (row, col)
-        print(f"select {row} {col}")
 
     def unselect_piece(self):
         self.selected_square = None
@@ -214,7 +213,6 @@ class Board:
         self.last_board = copy.deepcopy(self.board)
         captured_squares = self.capture_moves.get((row, col))
         for r, c in captured_squares:
-            print(r, c)
             self.board[r][c] = None
 
         self.board[piece.row][piece.col], self.board[row][col] = self.board[row][col], self.board[piece.row][piece.col]
